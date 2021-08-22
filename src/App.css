@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app{
+  width: 100%;
+  padding: 3rem 1rem;
+}
+h1{
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+html{
+  font-size: 12px;
+}
+body{
+  width: 100%;
+}
+.section-1{
+  padding: 1rem;
+  margin: 2rem 0;
+  width: 30%;
+  font-size: 1.5rem;  
+  border-radius: 20px;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.budget{
+  background: rgb(198, 230, 230);
+  display: flex;
+  justify-content: space-between;
+
+}
+strong{
+  margin: 0 1rem;
+}
+button{
+  padding:0.5rem 1rem;
+  background: rgb(137, 195, 197);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  background: rgb(138, 184, 185);
+}
+.remaining{
+  background: rgb(172, 221, 192);
+}
+.spent{
+  background: rgb(240, 162, 152);
+}
+input{
+  margin: 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+.item{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+  margin: 1rem 0;
+}
+.expenses-info{
+  display: flex;
+  align-items: center;
+}
+.delete{
+  padding:0.2rem 1rem;
+  background:red;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.delete:hover{
+  background: rgb(110, 21, 21);
+}
+.input-budget{
+  width:200px;
+  margin: 0;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 ;
+}
+.line{
+  width:500px;
+  height: 2px;
+  background: gray;
+}
